@@ -10,19 +10,19 @@
 <body>
   <div class="page">
     <header class="header">
-      <div class="logo header__logo"></div>
+      <img src="./images/logo_place_header.png" alt="header-logo" class="logo header__logo"></img>
       
      <h1 class="header__title">Learning how to learn</h1>
     <p class="header__subtitle">The most effective, cutting-edge learning techniques that you can apply to your daily life. 
       <a href="#" target="_blank" class="header__link">Learn more →</a>
     </p>
-      <img src="header-image.png" alt="man-in-jacket" class="header__main-illustration"></img>
+      <img src="./images/header-image.png" alt="man-in-jacket" class="header__main-illustration"></img>
       <div class="header__square-pic"></div>
     </header>
     <main class="content">
       <section class="description">
         <div class="two-columns">
-        <h6 class="two-columns__brief">The main problem with education</h6>
+        <h1 class="two-columns__brief">The main problem with education</h1>
         <div class="two-columns__main-text">
           <p class="two-columns__paragraph two-columns__paragraph-1">
             Whether it's at school or university, the one thing no one ever teaches you is how to teach yourself. All you actually do is memorize information in order to regurgitate it when you take the test. You get drilled on how to solve specific exercises so that while you know exactly what you need to do when exam time comes around, do you truly understand the subject material? All you've really learned is how to pass that one test. Once the test is over, the information in your head has outlived its usefulness.
@@ -100,6 +100,7 @@
       </section>
     
       <section class="kaufman">
+        <!--I believe you mean there is no such border for section feynman according to the project brief. I had to add the border because if I remove the border, the background of feynman slides up. This is because I had to set feynman's position to relative to allow the More -> link to be at 50% height. Otherwise, More -> link will go above feynman. On the other hand, if I set feynman to position: absolute, section kaufman will overlap section feynman-->
         <h1 class="kaufman__title_theme_dark kaufman__text">Ten principles of rapid skill acquisition</h1>
       <p class="kaufman__subtitle_theme_dark kaufman__text">by Josh Kaufman</p>
       <div class="table__theme_dark">
@@ -155,7 +156,7 @@
           </div>
         
       </div>
-        <img src="kaufman-triangle.svg" alt="kaufman_triangle" class="kaufman__triangle"></img>
+        <img src="./images/kaufman-triangle.svg" alt="kaufman_triangle" class="kaufman__triangle"></img>
 
       </div>
 
@@ -164,11 +165,10 @@
       </section>
     </main>
 
-    
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__columns-1">
-      <img src="logo_place_footer.png" alt="logo_footer" class="logo_place_footer"></img>
+      <img src="./images/logo_place_footer.png" alt="logo_footer" class="logo_place_footer"></img>
       <p class="footer__column_content_copyright footer__text">© 2019. Aiyi Wu</p>
         </div>
         
@@ -193,13 +193,13 @@
             <p class="footer__column-heading footer__text">Social media</p>
             <ul class="footer__column-links">
               <li class="footer__column-facebook">
-                <img src="facebook_color_white.svg" alt="facebook" class="footer__column-social-icon"></img>
+                <img src="./images/facebook_color_white.svg" alt="facebook" class="footer__column-social-icon"></img>
                 <div class="footer__column-empty_space"></div>
                 <p class="footer__column-social-description footer__text">
                   <a href="#" target="_blank" class="footer__column-social-description footer__text footer__column-links_individual">Facebook</a></p>
               </li>
               <li class="footer__column-instagram">
-                <img src="instagram_color_white.svg" alt="instagram" class="footer__column-social-icon"></img>
+                <img src="./images/instagram_color_white.svg" alt="instagram" class="footer__column-social-icon"></img>
                 <div class="footer__column-empty_space"></div>
                 <p class="footer__column-social-description footer__text">
                   <a href="#" target="_blank" class="footer__column-social-description footer__text footer__column-links_individual">Instagram</a></p>
@@ -212,6 +212,8 @@
       </div>
       
     </footer>
+    
+    
   </div>
 </body>
 </html>

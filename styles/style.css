@@ -31,14 +31,11 @@
 }
 
 .header__logo {
-  background-image: url(../images/logo_place_header.png);
   position: absolute;
-  background-repeat: no-repeat;
   top: 30px;
   left: 64px;
   width: 154px;
   height: 31px;
-  background-size: contain; 
 }
 
 
@@ -71,6 +68,7 @@
 
 .header__link {
   color: #2f80ed;
+  text-decoration: none;
 }
 .header__main-illustration {
   width: 765px;
@@ -210,7 +208,7 @@
   background-repeat: no-repeat;
   background-position: left bottom;
   background-color: #f2f2f2;
-  border: 0.5px solid rgba(209, 182, 182, 0);
+  border: 0.5px solid rgba(0, 0, 0, 0);
 }
 
 .feynman__title {
@@ -292,14 +290,12 @@
   z-index: 1;
   margin-bottom: 90px;
   width: 1030px;
-  border: 1px solid red;
 }
 
 .table__cell_theme_dark {
   width: 200px;
   margin-top: 80px;
   justify-content: space-between;
-  border: 1px solid blue;
 }
 
 .table__heading_theme_dark {

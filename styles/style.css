@@ -197,6 +197,7 @@
   background-position: left bottom;
   background-color: #f2f2f2;
   padding-top: 100px;
+  position: relative;
 }
 
 .feynman__title {
@@ -222,8 +223,8 @@
 
 .feynman__link {
   position: absolute;
-  right: 275px;
-  top: 270%;
+  right: 48px;
+  top: 50%;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;

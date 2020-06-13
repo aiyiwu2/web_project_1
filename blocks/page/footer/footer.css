@@ -1,0 +1,16 @@
+@import url(./__columns/footer__columns.css);
+@import url(./__column/footer__column.css);
+@import url(./__author/footer__author.css);
+@import url(./__column-heading/footer__column-heading.css);
+@import url(./__column-links/footer__column-links.css);
+@import url(./__column-social-icon/footer__column-social-icon.css);
+@import url(./__link/footer__link.css);
+
+.footer {
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    background-color: #1f1f1f;
+    color: white;
+  }
